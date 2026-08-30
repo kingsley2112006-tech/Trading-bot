@@ -103,3 +103,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+import os
+import ccxt
+
+exchange = ccxt.binance({
+    'apiKey': os.getenv('BINANCE_API_KEY'),
+    'secret': os.getenv('BINANCE_SECRET_KEY'),
+    'enableRateLimit': True,
+})
+
+# Enable Demo / Testnet Mode
+exchange.set_sandbox_mode(True)
