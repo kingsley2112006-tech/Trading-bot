@@ -1,4 +1,4 @@
-pip install python-binance pandas numpy
+
 import pandas as pd
 from binance.client import Client
 from datetime import datetime, timedelta
