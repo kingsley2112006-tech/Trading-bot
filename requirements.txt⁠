@@ -1,5 +1,8 @@
-ccxt
+python-binance
 pandas
+numpy
+ccxt
 scikit-learn
 yfinance
 web3
+
